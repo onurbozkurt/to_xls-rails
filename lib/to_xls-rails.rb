@@ -7,7 +7,7 @@ class Array
     return '' if self.empty? && options[:prepend].blank?
 
     columns = []
-    options.reverse_merge!(:header => true)
+    # options.reverse_merge!(:header => true)
 
     xls_report = StringIO.new
 
